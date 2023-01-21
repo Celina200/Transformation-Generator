@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.a84a417a329f06a0ece1075439dcf842?rik=ECZspDBlv4bp0Q&riu=http%3a%2f%2fi1.sndcdn.com%2fartworks-000046671269-55ffy5-original.jpg%3f435a760&ehk=lNxtwhvExzP4D5fL5v2JDmowPl1pG2GkFlsay3CI%2bCc%3d&risl=&pid=ImgRaw&r=0"); /* add a background image of your choice */
+    background-size: cover; /* make the background image fill the entire screen */
+    font-family: 'Montserrat', sans-serif; /* use a modern font */
+    color: white; /* make the text white */
+}
+
+h1 {
+    text-align: center; /* center the text */
+    font-size: 48px; /* make the text larger */
+    text-shadow: 2px 2px 4px #000000; /* add a text shadow for a mystical effect */
+    margin-top: 50px; /* add some space above the text */
+}
+
+form {
+    text-align: center; /* center the form */
+    margin-top: 50px; /* add some space above the form */
+}
+
+label {
+    font-size: 18px; /* make the label text larger */
+}
+
+input {
+    padding: 12px 20px; /* add some padding to the input field */
+    margin: 8px 0; /* add some margin to the input field */
+    box-sizing: border-box; /* make the input field the same size as the padding and margin */
+    border: none; /* remove the border */
+    border-bottom: 2px solid white; /* add a white bottom border */
+    font-size: 20px; /* make the input text larger */
+    background-color: transparent; /* make the input field transparent */
+    color: white; /* make the input text white */
+
+}
+
+#start-button {
+    background-color: #8d0d7c; /* add a background color of your choice */
+    border: none; /* remove the border */
+    color
+    : white; /* make the button text white /
+    padding: 16px 32px; / add some padding to the button /
+    text-align: center; / center the text in the button /
+    text-decoration: none; / remove the underline /
+    display: inline-block; / make the button an inline element /
+    font-size: 18px; / make the button text larger /
+    margin: 4px 2px; / add some margin to the button /
+    cursor: pointer; / add a pointer cursor on hover /
+    border-radius: 5px; / add rounded corners to the button /
+    box-shadow: 2px 2px 4px #000000; / add a box shadow for a mystical effect /
+    transition: all 0.5s ease; / add a transition effect when hovering */
+    cursor: pointer; /* add this line */
+    margin: 5px; /* add this line */    
+    padding: 17px;
+    width: 150px;
+    transition: all 0.5s; /* add this line */
+}
+
+   
+    
+    #start-button:hover {
+            transform: scale(1.1); /* increase the size of the button by 10% */
+            box-shadow: 0 0 10px 5px #ff00ff, 0 0 20px 10px #00ff00; /* add a pink and green shadow on hover */
+            transition: all 0.3s ease; /* add a transition effect for a smooth animation */
+        
+        background-color: #f10fe6; /* change the background color on hover /
+    transform: scale(1.1); / increase the size of the button on hover */
+        animation: lightning 0.5s ease-in-out infinite alternate;
+    
+    @keyframes lightning {
+        from {
+            box-shadow: 0 0 10px 5px #ff00ff;
+        }
+        to {
+            box-shadow: 0 0 20px 10px #00ff00;
+        }
+    }
+    
+
+
+}
+    
+    #generator-content {
+    display: none; /* hide the generator content by default */
+    }
