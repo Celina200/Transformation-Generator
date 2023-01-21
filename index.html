@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curse Generator</title>
+  <script src="script.js"></script>
+<script src="startingscript.js"></script> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+          <h1>Your Transformation:</h1>
+          <button class="button" id="generate-button">Generate New Transformation</button>
+          <p class="transformed-clothing" id="transformed-clothing"></p>
+          
+        </div>
+        <div class="image-section">
+          <img id="transformed-image" src="">
+        </div>
+    </div>
+    <div id="loading" class="loading" style="display:none;">Loading...</div>
+    <script>
+      const name = localStorage.getItem("name");
+       // Function to generate a random curse
+    function generateCurse() {
+        // Pick a random item from each array
+        const randomClothes = clothes[Math.floor(Math.random() * clothes.length)];
+        const randomFate = fates[Math.floor(Math.random() * fates.length)];
+        const randomDuration = durations[Math.floor(Math.random() * durations.length)];
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        // Update the src attribute of the transformed-image element
+        if(randomClothes === "Shirt"){
+            document.getElementById("transformed-image").src = Shirt[randomColor];
+        }else if(randomClothes === "Pants"){
+            document.getElementById("transformed-image").src = Pants[randomColor];
+        }else if(randomClothes === "Dress"){
+            document.getElementById("transformed-image").src = Dress[randomColor];
+        }else if(randomClothes === "Shoe"){
+            document.getElementById("transformed-image").src = Shoe[randomColor];
+        }else if(randomClothes === "Hat"){
+            document.getElementById("transformed-image").src = Hat[randomColor];
+          }else if(randomClothes === "Jacket"){
+            document.getElementById("transformed-image").src = Jacket[randomColor];
+        
+          }else if(randomClothes === "Sock"){
+            document.getElementById("transformed-image").src = Sock[randomColor];
+        
+          }else if(randomClothes === "GString"){
+            document.getElementById("transformed-image").src = GString[randomColor];
+        
+          }else if(randomClothes === "Thong"){
+            document.getElementById("transformed-image").src = Thong[randomColor];
+        
+          }else if(randomClothes === "StripedPantie"){
+            document.getElementById("transformed-image").src = StripedPantie[randomColor];
+       
+          }else if(randomClothes === "PlainPantie"){
+            document.getElementById("transformed-image").src = PlainPantie[randomColor];
+
+          }else if(randomClothes === "Pantie"){
+        document.getElementById("transformed-image").src = Pantie[randomColor];
+    
+    }else if(randomClothes === "Scarf"){
+        document.getElementById("transformed-image").src = Scarf[randomColor];  
+   }else if(randomClothes === "Glove"){
+        document.getElementById("transformed-image").src = Glove[randomColor];  
+   }else if(randomClothes === "Belt"){
+        document.getElementById("transformed-image").src = Belt[randomColor];
+      }else if(randomClothes === "Necklace"){
+        document.getElementById("transformed-image").src = Necklace[randomColor];
+      }else if(randomClothes === "Sunglasses"){
+        document.getElementById("transformed-image").src = Sunglasses[randomColor];
+      }else if(randomClothes === "Watch"){
+        document.getElementById("transformed-image").src = Watch[randomColor];
+      }else if(randomClothes === "Earring"){
+        document.getElementById("transformed-image").src = Earring[randomColor];
+      }else if(randomClothes === "Bra"){
+        document.getElementById("transformed-image").src = Bra[randomColor];
+      }else if(randomClothes === "Bracelet"){
+        document.getElementById("transformed-image").src = Bracelet[randomColor];
+      }else if(randomClothes === "Sportsbra"){
+        document.getElementById("transformed-image").src = Sportsbra[randomColor];
+      }else if(randomClothes === "Leggings"){
+        document.getElementById("transformed-image").src = Leggings[randomColor];
+      }else if(randomClothes === "Dildo"){
+        document.getElementById("transformed-image").src = Dildo[randomColor];
+      }else if(randomClothes === "ButtPlug"){
+        document.getElementById("transformed-image").src = ButtPlug[randomColor];
+      }else if(randomClothes === "Tampon"){
+        document.getElementById("transformed-image").src = Tampon[randomColor];
+      }else if(randomClothes === "Condom"){
+        document.getElementById("transformed-image").src = Condom[randomColor];
+    }
+    // Return the full curse as a string
+    return `${name}, you are now a ${randomColor} ${randomClothes} and ${randomFate} for ${randomDuration}.`;
+}
+// Add the event listener to the "generate-button" button here
+document.getElementById("generate-button").addEventListener("click", generateNewTransformation);
+document.getElementById("transformed-clothing").innerHTML = generateCurse();
+
+
+  
+
+    </script>
+</body>
+</html>
+    
