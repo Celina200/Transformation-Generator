@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var name = document.querySelector("#name").value;
         localStorage.setItem("name", name);
-        window.location.href = "file:///C:\Users\PC\Downloads\Transformation-Generator-main\Transformation-Generator-main\index.html";
+        window.location.href = "file:///C:/Users/PC/Downloads/Transformation-Generator-main/Transformation-Generator-main/index.html";
     });
 });
