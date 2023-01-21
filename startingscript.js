@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
         var name = document.querySelector("#name").value;
         localStorage.setItem("name", name);
-        window.location.href = "file:///C:/Users/PC/Game%20Test/generator/index.html";
+        window.location.href = "file:///C:\Users\PC\Downloads\Transformation-Generator-136904bfce1862658c2533cf219269753afe7297\Transformation-Generator-136904bfce1862658c2533cf219269753afe7297";
     });
 });
