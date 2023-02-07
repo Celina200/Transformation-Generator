@@ -26,116 +26,143 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         "The duration is 4 months but when you get properly folded it can be extended to 6 months. ",
         "The duration is 3 years but when you get regularly stored in a dry place it can be extended to a lifetime."];
         
-        const colors = ["black", "red"]
+        const colors = ["black", "blue", "red"]
         
         const Shirt ={
-            "red": "https://images-na.ssl-images-amazon.com/images/I/71Voe1HFBoL._AC_SL1500_.jpg",
-            "black": "https://handcmediastorage.blob.core.windows.net/productimages/FD/FDPTA002-A01-06-800px-1040px.jpg"
+            "red": "https://images.dresshead.com/images/Red%20Shirts/5715008/large/1.jpg",
+            "black": "https://handcmediastorage.blob.core.windows.net/productimages/FD/FDPTA002-A01-06-800px-1040px.jpg",
+            "blue": "https://ae01.alicdn.com/kf/HTB11lQ0w8smBKNjSZFFq6AT9VXaR/Sweetown-Long-Sleeve-Shirt-Women-Sexy-Skinny-Blue-Printed-Crop-Top-T-Shirt-Femme-Autumn-2018.jpg"
         }
         const Pants ={
-            "red": "https://th.bing.com/th/id/OIP.E0MMtaGzV_KQ245ZYd3x_wHaIk?pid=ImgDet&rs=1",
-            "black": "https://images.bubbleroom.fi/data/product/1200x1741/happy-holly-francis-high-flared-black_30.jpg"
+            "red": "https://img3.lovelyimg.com/images/duopingtai/202003/202003_D_1583375744_10906.jpg",
+            "black": "https://images.bubbleroom.fi/data/product/1200x1741/happy-holly-francis-high-flared-black_30.jpg",
+            "blue": "https://ae01.alicdn.com/kf/HTB1TR6KlxrI8KJjy0Fpq6z5hVXaP/M-H-Artemis-Ass-Rip-Jeans-Women-s-High-Waist-Slim-fit-Jeans-Sexy-Holes-Denim.jpg"
         }
         const Dress ={
             "red": "https://i.pinimg.com/originals/d3/4f/af/d34fafca620847a1791dd4f85f4b58a0.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1AJfAd8HH8KJjy0Fbq6AqlpXan/Black-Womens-Sexy-Dresses-Party-Night-Club-Dress-Summer-Elegant-Dresses-Women-Big-Size-Slim-Vneck.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1AJfAd8HH8KJjy0Fbq6AqlpXan/Black-Womens-Sexy-Dresses-Party-Night-Club-Dress-Summer-Elegant-Dresses-Women-Big-Size-Slim-Vneck.jpg",
+            "blue": "https://i.pinimg.com/736x/83/2b/ce/832bcee9648e712b3a1d0a35db39346e--doll-dresses-club-dresses.jpg"
         }
 
         const Shoe = {
             "red": "https://ae01.alicdn.com/kf/HTB1vJhEhFGWBuNjy0Fbq6z4sXXap/Women-shoes-pointed-toe-high-heels-women-Pumps-footwear-sapato-feminino-fashion-simple-sweet-sexy-party.jpg_640x640.jpg",
-            "black": "https://th.bing.com/th/id/R.db65f93803931d8827398aa24e585827?rik=qV0tWGWDOfUUyQ&riu=http%3a%2f%2fimg.auctiva.com%2fimgdata%2f0%2f9%2f8%2f9%2f8%2f0%2fwebimg%2f542790708_o.jpg&ehk=rR7BNDEHKNq2MDKjyvbxpr9El8AVyIvasTIEEhsUN%2fM%3d&risl=&pid=ImgRaw&r=0"
+            "black": "https://th.bing.com/th/id/R.db65f93803931d8827398aa24e585827?rik=qV0tWGWDOfUUyQ&riu=http%3a%2f%2fimg.auctiva.com%2fimgdata%2f0%2f9%2f8%2f9%2f8%2f0%2fwebimg%2f542790708_o.jpg&ehk=rR7BNDEHKNq2MDKjyvbxpr9El8AVyIvasTIEEhsUN%2fM%3d&risl=&pid=ImgRaw&r=0",
+            "blue": "https://i.pinimg.com/originals/85/06/d1/8506d11aa2dacbd2771eef4b9e318436.jpg"
         }
         const Hat ={
-            "red": "https://www.dhresource.com/0x0s/f2-albu-g5-M00-39-D3-rBVaJFi3kgmAfMmYAANeTjUZibI227.jpg/2017-straw-hats-for-women-039-s-female-summer.jpg",
-            "black": "https://i.pinimg.com/736x/d3/a5/52/d3a5520d62b44e9c844f4703a50dcac8.jpg"
+            "red": "https://i.pinimg.com/originals/6b/72/c1/6b72c1edb22d97ae09760131fb17ad38.jpg",
+            "black": "https://i.pinimg.com/736x/d3/a5/52/d3a5520d62b44e9c844f4703a50dcac8.jpg",
+            "blue": "https://th.bing.com/th/id/OPE.Xm2CnmsjpK9cuA300C300?pid=21.1&w=160&h=200&dpr=1,1"
         }
         const Jacket ={
             "red": "https://thumbs.dreamstime.com/z/vertical-picture-sexy-business-woman-red-jacket-pantie-panties-white-background-44257777.jpg",
             "black": "https://www.dhresource.com/0x0/f2/albu/g5/M00/10/13/rBVaI1lLNDWAeOG1AAH4VHGsHbg492.jpg",
+            "blue": "https://ae01.alicdn.com/kf/HTB1z3QyLVXXXXauaXXXq6xXFXXXJ/2017-Fashion-Spring-Autumn-Sexy-Slim-Blue-Women-Jacket-Cotton-Casual-Lady-Denim-Jacket-Baseball-Uniform.jpg"
         }
         const Sock ={
             "red": "https://ftopx.com/images/201306/ftop.ru_60347.jpg",
-            "black": "https://th.bing.com/th/id/OIP.eufLjfmv1CRdOOLZYZEHmQHaEK?pid=ImgDet&rs=1"
+            "black": "https://th.bing.com/th/id/OIP.eufLjfmv1CRdOOLZYZEHmQHaEK?pid=ImgDet&rs=1",
+            "blue": "https://ae01.alicdn.com/kf/HTB1z3QyLVXXXXauaXXXq6xXFXXXJ/2017-Fashion-Spring-Autumn-Sexy-Slim-Blue-Women-Jacket-Cotton-Casual-Lady-Denim-Jacket-Baseball-Uniform.jpg"
         }
         const GString ={
-            "red": "https://www.ohyeah888.com/Uploadfiles/product/Image/file/20160621/20160621181069416941.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1NcPEkcLJ8KJjy0Fnq6AFDpXas/Annajolly-New-Underwear-Women-Sexy-Black-Lace-Thong-Floral-G-String-Solid-Low-Rise-Crotchless-Panties.jpg"
+            "red": "https://i.etsystatic.com/12331884/r/il/5b6c92/1530564408/il_570xN.1530564408_ropn.jpg",
+            "black": "https://ae01.alicdn.com/kf/HTB1NcPEkcLJ8KJjy0Fnq6AFDpXas/Annajolly-New-Underwear-Women-Sexy-Black-Lace-Thong-Floral-G-String-Solid-Low-Rise-Crotchless-Panties.jpg",
+            "blue": "https://tse1.explicit.bing.net/th/id/OIP.xJv_hsMPfnKuMKjrEb14oAHaH3?pid=ImgDet&w=193&h=204&c=7&dpr=1,1&isAdult=true"
         }
         const Thong ={
             "red": "https://s.yimg.com/aah/spicylingeriestore/sweet-red-lace-thong-15.png",
-            "black": "https://th.bing.com/th/id/OIP.FFkHiXJdiKxs7Tx5UAlgIwHaJQ?pid=ImgDet&w=193&h=241&c=7&dpr=1,1"
+            "black": "https://th.bing.com/th/id/OIP.FFkHiXJdiKxs7Tx5UAlgIwHaJQ?pid=ImgDet&w=193&h=241&c=7&dpr=1,1",
+            "blue": "https://sexyphoto.es/wp-content/uploads/2016/12/perfect-ass.jpg"
         }
         const StripedPantie ={
             "red": "https://cdn.leslipfrancais.fr/11031-thickbox_default/la-zaza-mariniere-rouge-lingerie-bas-mariniere-rouge.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1Zas8QXXXXXa4apXXq6xXFXXXx/2017-New-fashion-Women-Striped-Panties-Cotton-women-s-briefs-sexy-low-waist-panties-Ladies-Cotton.jpg_640x640.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1Zas8QXXXXXa4apXXq6xXFXXXx/2017-New-fashion-Women-Striped-Panties-Cotton-women-s-briefs-sexy-low-waist-panties-Ladies-Cotton.jpg_640x640.jpg",
+            "blue": "https://i.etsystatic.com/22835613/r/il/1286d4/3311172849/il_fullxfull.3311172849_ojam.jpg"
         }
         const PlainPantie ={
             "red": "https://i.ebayimg.com/images/g/W9sAAMXQ855RrvuI/s-l300.jpg",
-            "black": "https://www.ppz.com/img2/images/tqdl/base.jpg"
+            "black": "https://www.ppz.com/img2/images/tqdl/base.jpg",
+            "blue": "https://th.bing.com/th/id/OIP.figw0v6Gh71a0crwQYRYoQHaHa?pid=ImgDet&rs=1"
         }
         const Pantie ={
             "red": "https://th.bing.com/th/id/OPE.4QxF1QIxvhA7wQ300C300?pid=21.1&w=160&h=220&dpr=1,1",
-            "black": "https://cdn.shopify.com/s/files/1/0293/9277/products/Fashion_Nova_03-17-17-066_1000x.jpg?v=1490985368"
+            "black": "https://cdn.shopify.com/s/files/1/0293/9277/products/Fashion_Nova_03-17-17-066_1000x.jpg?v=1490985368",
+            "blue": "https://img0.etsystatic.com/116/1/6642139/il_fullxfull.941965550_54je.jpg"
         }
         const Scarf ={
             "red": "https://th.bing.com/th/id/R.8ad017efeffe498baddbe02bd05bc48b?rik=VP1D%2be2T3ubOvQ&riu=http%3a%2f%2fpicture-cdn.wheretoget.it%2fyoq2us-i.jpg&ehk=zltZ8sP0qyvDHIUO7qcmj%2bliiLv%2b5GlcQ%2bA0BZVNMEo%3d&risl=&pid=ImgRaw&r=0",
-            "black": "https://i.pinimg.com/originals/43/26/5c/43265c3d68be0925d99ae2cfe89efb15.jpg"
+            "black": "https://i.pinimg.com/originals/43/26/5c/43265c3d68be0925d99ae2cfe89efb15.jpg",
+            "blue": "https://i.pinimg.com/originals/e1/9f/2e/e19f2e851bf058df94ca8f810687b053.jpg"
         }
         const Glove ={
             "red": "https://www.heavencostumes.com.au/media/catalog/product/cache/3ca7c4de79fd9294a778cbfdebc9dde4/e/-/e-well-04002-rd-long-satin-opera-gloves-in-red-close-r.jpg",
-            "black": "https://www.heavencostumes.com.au/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/s/m/smf-9363-long-black-satin-gloves-costume-accessory.jpg"
+            "black": "https://www.heavencostumes.com.au/media/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/s/m/smf-9363-long-black-satin-gloves-costume-accessory.jpg",
+            "blue": "https://i.pinimg.com/originals/c8/6b/80/c86b80f4d8ef1a69fcb19cb72007f9f2.jpg"
         }
         const Belt ={
             "red": "https://th.bing.com/th/id/OIP.67VrzioROsUaJ1zPu6-sgQHaLI?pid=ImgDet&rs=1",
-            "black": "https://i.pinimg.com/736x/4e/96/92/4e96922613cf78bfe3620ec6c6bbe24f.jpg"
+            "black": "https://i.pinimg.com/736x/4e/96/92/4e96922613cf78bfe3620ec6c6bbe24f.jpg",
+            "blue": "https://www.sublimeclothing.co.za/wp-content/uploads/2019/03/belt9.jpg"
         }
         const Necklace ={
             "red": "https://i.etsystatic.com/6431556/r/il/b3c43c/330844789/il_1140xN.330844789.jpg",
-            "black": "https://i.ebayimg.com/images/g/lp8AAOSwOdpXyncx/s-l640.jpg"
+            "black": "https://i.ebayimg.com/images/g/lp8AAOSwOdpXyncx/s-l640.jpg",
+            "blue": "https://n1.sdlcdn.com/imgs/a/s/h/Young-And-Forever-Beautiful-Romantic-SDL915083991-3-c7da2.jpg"
         }
         const Sunglasses ={
             "red": "https://i.pinimg.com/originals/10/e2/8f/10e28f8adb25ba65d46371eaee193590.jpg",
-            "black": "https://th.bing.com/th/id/R.92834c0592380ae51bf20e43e4454ac6?rik=%2b9kCfC3KsaEuIw&pid=ImgRaw&r=0"
+            "black": "https://th.bing.com/th/id/R.92834c0592380ae51bf20e43e4454ac6?rik=%2b9kCfC3KsaEuIw&pid=ImgRaw&r=0",
+            "blue": "https://i.pinimg.com/736x/4a/87/60/4a8760fe86aeb96ca1d3f80ba137d948.jpg"
         }
         const Watch ={
             "red": "https://th.bing.com/th/id/OIP.bObjCCDbNVQ2iFQ-4XR8rQHaHa?pid=ImgDet&rs=1",
-            "black": "https://ae01.alicdn.com/kf/HTB1CYDuocnI8KJjSspeq6AwIpXal/Luxury-Women-Watches-Simple-Ladies-Steel-Watch-Rose-Gold-Elegant-Minimalism-Casual-Black-Female-Waterproof-Clock.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1CYDuocnI8KJjSspeq6AwIpXal/Luxury-Women-Watches-Simple-Ladies-Steel-Watch-Rose-Gold-Elegant-Minimalism-Casual-Black-Female-Waterproof-Clock.jpg",
+            "blue": "https://cliff.ae/pub/media/catalog/product/cache/aac8b4e8c6e90d36f8480a97ca23a711/3/_/3_358.jpg"
         }
         const Earrings ={
             "red": "https://ae01.alicdn.com/kf/HTB1LotXejgy_uJjSZTEq6AYkFXaE/2018-New-Hot-Tassel-Drop-Earrings-Black-vintage-tassel-earrings-long-Big-Dangle-Earrings-Female-Earrings.jpg",
-            "black": "https://www.lulus.com/images/product/xlarge/1571834_252002.jpg"
+            "black": "https://www.lulus.com/images/product/xlarge/1571834_252002.jpg",
+            "blue": "https://ae01.alicdn.com/kf/HTB1zh0UCAKWBuNjy1zjq6AOypXa0/1pcs-Sell-Sea-Is-Blue-Luxury-Ear-Stud-Earrings-For-Women-Round-With-Cubic-Zircon-Charm.jpg"
         }
         const Bra ={
             "red": "https://ae01.alicdn.com/kf/HTB1JblxIXXXXXa8XXXXq6xXFXXXm/2015-New-Fashion-Women-Red-Bra-Push-Up-Shaping-Underwire-Lace-Shapers-100-Cotton-Sexy-Bras.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1MSp2Kr1YBuNjSszeq6yblFXaz/Women-Black-Sexy-Lace-Bra-Enchanting-Hollow-Lace-Tops-Bra-Sexy-Lingerie-Sleepwear-Brassiere-Underwear-M.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1MSp2Kr1YBuNjSszeq6yblFXaz/Women-Black-Sexy-Lace-Bra-Enchanting-Hollow-Lace-Tops-Bra-Sexy-Lingerie-Sleepwear-Brassiere-Underwear-M.jpg",
+            "blue": "https://boloblog.com/wp-content/uploads/2018/07/blue-bra-olanfen-wave-ruffles-lace-push-up-convertible-blue-bra-w6044-zhwxofa-.jpg"
         }
         const Bracelet ={
             "red": "https://ae01.alicdn.com/kf/HTB1u6gEPXXXXXabXXXXq6xXFXXXu/2018-New-Red-Sexy-Wedding-Lace-Bracelet-Bridal-Jewelry-For-Women.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1mOudmHsTMeJjSszgq6ycpFXaB/Fashion-Vintage-Heart-Shaped-Gem-Lace-Bracelet-New-Arrival-Sexy-Black-Bracelet-for-Women-Best-Quality.jpg_640x640.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1mOudmHsTMeJjSszgq6ycpFXaB/Fashion-Vintage-Heart-Shaped-Gem-Lace-Bracelet-New-Arrival-Sexy-Black-Bracelet-for-Women-Best-Quality.jpg_640x640.jpg",
+            "blue": "https://ae01.alicdn.com/kf/UTB87nSGef2JXKJkSanrq6y3lVXar/Hot-Sale-Wholesale-Austria-Blue-Crystal-Bangle-Bracelet-for-Women-Tops-Fashion-Jewelry-Gift.jpg"
         }
         const Sportsbra ={
             "red": "https://www.dhresource.com/0x0s/f2-albu-g6-M00-5F-5D-rBVaR1qaFWWAOdMAAAO0d1Y-PaM238.jpg/sexy-yoga-sports-bra-women-2018-fitness-gym.jpg",
-            "black": "https://th.bing.com/th/id/R.ba9008912f2a4bd6ce680c1365b3c717?rik=gRhoXxrE1HLT%2bA&pid=ImgRaw&r=0"
+            "black": "https://th.bing.com/th/id/R.ba9008912f2a4bd6ce680c1365b3c717?rik=gRhoXxrE1HLT%2bA&pid=ImgRaw&r=0",
+            "blue": "https://cdn.shopify.com/s/files/1/0275/2908/5014/products/35.1_1024x1024.jpg?v=1579130204"
         }
         const Leggings ={
             "red": "https://i.pinimg.com/originals/f9/09/ce/f909ce9f096228b028f527d6b441657b.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1R8qJaPgy_uJjSZKbq6xXkXXa3/Mermaid-Curve-New-Women-High-Waist-Leggings-Sport-Fitness-Push-Up-Sexy-Hip-Leather-Patchwork-Women.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1R8qJaPgy_uJjSZKbq6xXkXXa3/Mermaid-Curve-New-Women-High-Waist-Leggings-Sport-Fitness-Push-Up-Sexy-Hip-Leather-Patchwork-Women.jpg",
+            "blue": "https://i5.walmartimages.com/asr/39b28dc6-abd7-4a25-a516-0dc91430ac73.1d88607bd1ccbdcfc54f21c732529672.jpeg"
         }
         const Dildo ={
             "red": "https://www.megatube.xxx/contents/videos_sources/17000/17436/screenshots/7.jpg",
-            "black": "http://www.coaching-et-formation-coaching.eu/image/75807e452629825a418de9664d719fef.jpg"
+            "black": "https://th.bing.com/th/id/OIP._3270ojVBOReeihUdF7lpAHaE7?pid=ImgDet&rs=1",
+            "blue": "https://3.bp.blogspot.com/-b1aSrOy0ZaI/UvsofnhsoqI/AAAAAAAAAXE/bw_nD114P8Y/s1600/14_734.jpg"
         }
         const ButtPlug ={
             "red": "https://images-na.ssl-images-amazon.com/images/I/41nD9aJancL._SY300_QL70_.jpg",
-            "black": "https://ae01.alicdn.com/kf/HTB1KRV8NFXXXXbdXpXXq6xXFXXX7/Free-shipping-34-80mm-medium-black-silicone-anal-plug-Jeweled-Rhinestone-insert-butt-plug-sexy-topper.jpg"
+            "black": "https://ae01.alicdn.com/kf/HTB1KRV8NFXXXXbdXpXXq6xXFXXX7/Free-shipping-34-80mm-medium-black-silicone-anal-plug-Jeweled-Rhinestone-insert-butt-plug-sexy-topper.jpg",
+            "blue": "https://imgs1cdn.adultempire.com/product/2773973_1h.jpg"
         }
         const Tampon ={
             "red": "https://th.bing.com/th/id/R.007bc02291fa8effeeb1555bc0130d80?rik=Gr6FZhiz52zkkA&riu=http%3a%2f%2fi.imgur.com%2fX0wy8BR.jpg&ehk=vfrRUldhIyJQDHtZIYmblWlgjumCLEr%2f%2fi77ce1oYjI%3d&risl=&pid=ImgRaw&r=0",
-            "black": "https://i2-prod.mirror.co.uk/incoming/article12652527.ece/ALTERNATES/s1200/3_That-time-of-the-month-again.jpg"
+            "black": "https://i2-prod.mirror.co.uk/incoming/article12652527.ece/ALTERNATES/s1200/3_That-time-of-the-month-again.jpg",
+            "blue": "https://media.istockphoto.com/photos/menstrual-tampon-on-a-blue-background-menstruation-time-hygiene-and-picture-id691610430?k=6&m=691610430&s=170667a&w=0&h=uooiSEN2OmyxKoXBwLbHcXqoF9IcN6IGf1uwBtFuWPg="
         }
         const Condom ={
             "red": "https://img.freepik.com/free-photo/lady-is-giving-red-condom-safe-sex-contraception-concept_1150-6172.jpg?size=626&ext=jpg",
-            "black": "https://cdn11.bigcommerce.com/s-b2st9rn/images/stencil/original/products/228/330/glyde_cola_condoms_montage__12539.1463979698.jpg?c=2"
+            "black": "https://cdn11.bigcommerce.com/s-b2st9rn/images/stencil/original/products/228/330/glyde_cola_condoms_montage__12539.1463979698.jpg?c=2",
+            "blue": "https://thumbs.dreamstime.com/b/woman-opens-condom-young-opening-teeth-package-closeup-81232944.jpg"
         }
         
     // Function to generate a random curse
