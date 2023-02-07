@@ -35,11 +35,11 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         }
         const Pants ={
             "red": "https://img3.lovelyimg.com/images/duopingtai/202003/202003_D_1583375744_10906.jpg",
-            "black": "https://images.bubbleroom.fi/data/product/1200x1741/happy-holly-francis-high-flared-black_30.jpg",
+            "black": "https://ae01.alicdn.com/kf/HLB1_sxpX.zrK1RjSspmq6AOdFXaK/LORDXX-Black-Jeans-woman-Ribbed-Slim-Trousers-Femme-Skinny-women-Jean-2018-Ladies-Sexy-Push-Up.jpg",
             "blue": "https://ae01.alicdn.com/kf/HTB1TR6KlxrI8KJjy0Fpq6z5hVXaP/M-H-Artemis-Ass-Rip-Jeans-Women-s-High-Waist-Slim-fit-Jeans-Sexy-Holes-Denim.jpg"
         }
         const Dress ={
-            "red": "https://i.pinimg.com/originals/d3/4f/af/d34fafca620847a1791dd4f85f4b58a0.jpg",
+            "red": "https://cdn-img-1.wanelo.com/p/5b5/6bd/cb3/f1ce5584ea98707e27def9e/full_size.jpg",
             "black": "https://ae01.alicdn.com/kf/HTB1AJfAd8HH8KJjy0Fbq6AqlpXan/Black-Womens-Sexy-Dresses-Party-Night-Club-Dress-Summer-Elegant-Dresses-Women-Big-Size-Slim-Vneck.jpg",
             "blue": "https://i.pinimg.com/736x/83/2b/ce/832bcee9648e712b3a1d0a35db39346e--doll-dresses-club-dresses.jpg"
         }
