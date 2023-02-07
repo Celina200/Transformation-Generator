@@ -60,7 +60,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
             "blue": "https://ae01.alicdn.com/kf/HTB1z3QyLVXXXXauaXXXq6xXFXXXJ/2017-Fashion-Spring-Autumn-Sexy-Slim-Blue-Women-Jacket-Cotton-Casual-Lady-Denim-Jacket-Baseball-Uniform.jpg"
         }
         const Sock ={
-            "red": "https://ftopx.com/images/201306/ftop.ru_60347.jpg",
+            "red": "http://commondatastorage.googleapis.com/iew5e6yh/old/BW-610.jpg",
             "black": "https://th.bing.com/th/id/OIP.eufLjfmv1CRdOOLZYZEHmQHaEK?pid=ImgDet&rs=1",
             "blue": "https://ae01.alicdn.com/kf/HTB1z3QyLVXXXXauaXXXq6xXFXXXJ/2017-Fashion-Spring-Autumn-Sexy-Slim-Blue-Women-Jacket-Cotton-Casual-Lady-Denim-Jacket-Baseball-Uniform.jpg"
         }
@@ -71,7 +71,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         }
         const Thong ={
             "red": "https://s.yimg.com/aah/spicylingeriestore/sweet-red-lace-thong-15.png",
-            "black": "https://th.bing.com/th/id/OIP.FFkHiXJdiKxs7Tx5UAlgIwHaJQ?pid=ImgDet&w=193&h=241&c=7&dpr=1,1",
+            "black": "https://c.wallhere.com/photos/67/ed/women_black_stockings_brunette_ass_back_rear_view_standing_thong-1157789.jpg!d",
             "blue": "https://sexyphoto.es/wp-content/uploads/2016/12/perfect-ass.jpg"
         }
         const StripedPantie ={
@@ -156,7 +156,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         }
         const Tampon ={
             "red": "https://th.bing.com/th/id/R.007bc02291fa8effeeb1555bc0130d80?rik=Gr6FZhiz52zkkA&riu=http%3a%2f%2fi.imgur.com%2fX0wy8BR.jpg&ehk=vfrRUldhIyJQDHtZIYmblWlgjumCLEr%2f%2fi77ce1oYjI%3d&risl=&pid=ImgRaw&r=0",
-            "black": "https://i2-prod.mirror.co.uk/incoming/article12652527.ece/ALTERNATES/s1200/3_That-time-of-the-month-again.jpg",
+            "black": "https://deutschlandherald.com/wp-content/uploads/2021/06/Herald-1.jpg",
             "blue": "https://media.istockphoto.com/photos/menstrual-tampon-on-a-blue-background-menstruation-time-hygiene-and-picture-id691610430?k=6&m=691610430&s=170667a&w=0&h=uooiSEN2OmyxKoXBwLbHcXqoF9IcN6IGf1uwBtFuWPg="
         }
         const Condom ={
@@ -216,4 +216,5 @@ function generateNewTransformation() {
 
 
 }
+
 
