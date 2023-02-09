@@ -25,6 +25,9 @@
     function generateCurse() {
         // Pick a random item from each array
         const randomClothes = clothes[Math.floor(Math.random() * clothes.length)];
+        
+        const randomChange = changes[Math.floor(Math.random() * changes.length)];
+        
         const randomFate = fates[Math.floor(Math.random() * fates.length)];
         const randomDuration = durations[Math.floor(Math.random() * durations.length)];
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
@@ -92,7 +95,7 @@
         document.getElementById("transformed-image").src = Condom[randomColor];
     }
     // Return the full curse as a string
-    return `${name}, you are now a ${randomColor} ${randomClothes} and ${randomFate} for ${randomDuration}.`;
+    return `${name}, you are now a ${randomChange} ${randomColor} ${randomClothes} and ${randomFate} for ${randomDuration}.`;
 }
 // Add the event listener to the "generate-button" button here
 document.getElementById("generate-button").addEventListener("click", generateNewTransformation);
@@ -104,4 +107,4 @@ document.getElementById("transformed-clothing").innerHTML = generateCurse();
     </script>
 </body>
 </html>
-   
+    
