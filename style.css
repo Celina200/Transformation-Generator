@@ -1,62 +1,75 @@
-
-    .container {
-        display: flex;
-        flex-direction: row;
-    }
-
-  
-  .text-section {
-    width: 50%; /* set the width of the text section to 50% of the container */
-    padding: 10px; /* add some padding */
-  }
-  
-  .image-section {
-    width: 50%; /* set the width of the image section to 50% of the container */
-  }
-  .button {
-    background-color: #4CAF50; /* Green background */
-    border: none; /* Remove border */
-    color: white; /* White text */
-    padding: 15px 32px; /* Some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the button an inline element */
-    font-size: 16px; /* Set the font size */
-    margin: 4px 2px; /* Add some margin */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    border-radius: 5px; /* Add rounded corners */
+/* Default styles */
+.container {
+  display: flex;
+  flex-direction: row;
 }
-
-
+.text-section {
+  width: 50%;
+  padding: 10px;
+}
+.image-section {
+  width: 50%;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 .transformed-clothing {
-    font-family: 'Open Sans', sans-serif; /* Use a modern font */
-    font-size: 24px; /* Make the text larger */
-    line-height: 1.5; /* Add some space between lines */
-    color: #333; /* Use a dark grey color */
-    text-align: center; /* Center the text */
-    margin-top: 20px; /* Add some space above the text */
-    text-align: justify;
-	text-align-last: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  text-align: justify;
+  text-align-last: none;
 }
 img {
-    width: 595px;
-    height: 660px;
-    object-fit: cover;
-  }
-
-  /*Not working right now. Have to fix it later on
-  #loading {
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }*/
-
+  width: 595px;
+  height: 660px;
+  object-fit: cover;
+}
 #generator-content {
   display: none;
+}
+
+/* Media query for screens larger than 992px */
+@media only screen and (min-width: 992px) {
+  .text-section {
+    width: 40%;
+  }
+  .image-section {
+    width: 60%;
+  }
+  img {
+    width: 720px;
+    height: 840px;
+  }
+}
+
+/* Media query for screens smaller than 992px */
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+  .text-section {
+    width: 100%;
+    padding: 20px;
+  }
+  .image-section {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
