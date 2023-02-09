@@ -26,6 +26,8 @@
     cursor: pointer; /* Add a pointer cursor on hover */
     border-radius: 5px; /* Add rounded corners */
 }
+
+
 .transformed-clothing {
     font-family: 'Open Sans', sans-serif; /* Use a modern font */
     font-size: 24px; /* Make the text larger */
@@ -37,11 +39,12 @@
 	text-align-last: none;
 }
 img {
-    width: 500px;
-    height: 700px;
+    width: 595px;
+    height: 660px;
     object-fit: cover;
   }
-/*Not working right now. Have to fix it later on
+
+  /*Not working right now. Have to fix it later on
   #loading {
     background-color: rgba(0,0,0,0.5);
     color: white;
