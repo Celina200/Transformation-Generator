@@ -1,4 +1,5 @@
 const clothes = ["Shirt", "Pants", "Dress", "Shoe", "Hat", "Jacket", "Sock", "GString", "Thong", "StripedPantie", "PlainPantie", "Pantie", "Scarf", "Glove", "Belt", "Necklace", "Sunglasses", "Watch", "Earring", "Bra", "Bracelet", "Sportsbra", "Leggings", "Dildo", "ButtPlug", "Tampon", "Condom"];
+const changes = ["clean", "streched","stylish","comfortable","durable","colorful","trendy","versatile","classic","luxurious","practical","quality","affordable","unique","timeless","elegant","refined","sophisticated","chic","vibrant","flattering","eye-catching"]
 const fates = ["you are an expensive garment, and sold to a wealthy family. They treat you well and you kept in a luxurious wardrobe. You are occasionally taken out to be worn by the family members and their guests, and you enjoy this attention and the admiration that comes with it. ",
  "is donated to a costume museum, where you are displayed with respect and reverence. You are seen and admired by countless visitors, who marvel at your beauty and craftsmanship. You stand as a testament to a time gone by, and in time you become a beloved and treasured part of the museum's collection.",
  "after the transformation, you are taken to a small secondhand shop and put up for sale. You are quickly sold to a family who does not take good care of you. You often shuffled around from closet to closet, and rarely taken out to be worn. Over time, you become more and more worn and tattered, until you are eventually thrown away and forgotten.",
@@ -169,6 +170,9 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
     function generateCurse() {
         // Pick a random item from each array
         const randomClothes = clothes[Math.floor(Math.random() * clothes.length)];
+        
+        const randomChange = changes[Math.floor(Math.random() * changes.length)];
+
         const randomFate = fates[Math.floor(Math.random() * fates.length)];
         const randomDuration = durations[Math.floor(Math.random() * durations.length)];
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
