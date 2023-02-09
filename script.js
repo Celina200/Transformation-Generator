@@ -210,7 +210,7 @@ function generateNewTransformation() {
         document.getElementById("transformed-image").src = clothesImages[randomClothes];
 
         hideLoading(); // Hide the loading state after the transformation is generated
-    }, 2000); // Timeout of 2000 milliseconds (2 seconds)
+    }, 200); // Timeout of 200 milliseconds (0,2 seconds)
     console.log("Loading finished");
 
 
