@@ -1,4 +1,4 @@
-const clothes = ["Shirt", "Pants", "Dress", "Shoe", "Hat", "Jacket", "Sock", "GString", "Thong", "StripedPantie", "PlainPantie", "Pantie", "Scarf", "Glove", "Belt", "Necklace", "Sunglasses", "Watch", "Earring", "Bra", "Bracelet", "Sportsbra", "Leggings", "Dildo", "ButtPlug", "Tampon", "Condom"];
+thes = ["Shirt", "Pants", "Dress", "Shoe", "Hat", "Jacket", "Sock", "GString", "Thong", "StripedPantie", "PlainPantie", "Pantie", "Scarf", "Glove", "Belt", "Necklace", "Sunglasses", "Watch", "Earring", "Bra", "Bracelet", "Sportsbra", "Leggings", "Dildo", "ButtPlug", "Tampon", "Condom"];
 const fates = ["you are an expensive garment, and sold to a wealthy family. They treat you well and you kept in a luxurious wardrobe. You are occasionally taken out to be worn by the family members and their guests, and you enjoy this attention and the admiration that comes with it. ",
  "is donated to a costume museum, where you are displayed with respect and reverence. You are seen and admired by countless visitors, who marvel at your beauty and craftsmanship. You stand as a testament to a time gone by, and in time you become a beloved and treasured part of the museum's collection.",
  "after the transformation, you are taken to a small secondhand shop and put up for sale. You are quickly sold to a family who does not take good care of you. You often shuffled around from closet to closet, and rarely taken out to be worn. Over time, you become more and more worn and tattered, until you are eventually thrown away and forgotten.",
@@ -61,8 +61,8 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         }
         const Sock ={
             "red": "http://commondatastorage.googleapis.com/iew5e6yh/old/BW-610.jpg",
-            "black": "https://th.bing.com/th/id/OIP.eufLjfmv1CRdOOLZYZEHmQHaEK?pid=ImgDet&rs=1",
-            "blue": "https://ae01.alicdn.com/kf/HTB1z3QyLVXXXXauaXXXq6xXFXXXJ/2017-Fashion-Spring-Autumn-Sexy-Slim-Blue-Women-Jacket-Cotton-Casual-Lady-Denim-Jacket-Baseball-Uniform.jpg"
+            "black": "https://cdn.shopify.com/s/files/1/1391/9395/products/Black_Mesh_Socks7_1200x1200.jpg?v=1568785297",
+            "blue": "https://superx.studio/2971-thickbox_default/baby-blue-thigh-high-socks.jpg"
         }
         const GString ={
             "red": "https://i.etsystatic.com/12331884/r/il/5b6c92/1530564408/il_570xN.1530564408_ropn.jpg",
@@ -85,7 +85,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
             "blue": "https://th.bing.com/th/id/OIP.figw0v6Gh71a0crwQYRYoQHaHa?pid=ImgDet&rs=1"
         }
         const Pantie ={
-            "red": "https://th.bing.com/th/id/OPE.4QxF1QIxvhA7wQ300C300?pid=21.1&w=160&h=220&dpr=1,1",
+            "red": "https://i.pinimg.com/736x/7e/cc/10/7ecc10f7cfa7ba86528bbf1ff0b43139.jpg",
             "black": "https://cdn.shopify.com/s/files/1/0293/9277/products/Fashion_Nova_03-17-17-066_1000x.jpg?v=1490985368",
             "blue": "https://img0.etsystatic.com/116/1/6642139/il_fullxfull.941965550_54je.jpg"
         }
@@ -119,7 +119,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
             "black": "https://ae01.alicdn.com/kf/HTB1CYDuocnI8KJjSspeq6AwIpXal/Luxury-Women-Watches-Simple-Ladies-Steel-Watch-Rose-Gold-Elegant-Minimalism-Casual-Black-Female-Waterproof-Clock.jpg",
             "blue": "https://cliff.ae/pub/media/catalog/product/cache/aac8b4e8c6e90d36f8480a97ca23a711/3/_/3_358.jpg"
         }
-        const Earrings ={
+        const Earring ={
             "red": "https://ae01.alicdn.com/kf/HTB1LotXejgy_uJjSZTEq6AYkFXaE/2018-New-Hot-Tassel-Drop-Earrings-Black-vintage-tassel-earrings-long-Big-Dangle-Earrings-Female-Earrings.jpg",
             "black": "https://www.lulus.com/images/product/xlarge/1571834_252002.jpg",
             "blue": "https://ae01.alicdn.com/kf/HTB1zh0UCAKWBuNjy1zjq6AOypXa0/1pcs-Sell-Sea-Is-Blue-Luxury-Ear-Stud-Earrings-For-Women-Round-With-Cubic-Zircon-Charm.jpg"
@@ -146,11 +146,11 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
         }
         const Dildo ={
             "red": "https://www.megatube.xxx/contents/videos_sources/17000/17436/screenshots/7.jpg",
-            "black": "https://th.bing.com/th/id/OIP._3270ojVBOReeihUdF7lpAHaE7?pid=ImgDet&rs=1",
+            "black": "https://xxgasm.com/wp-content/upload/2019/07/best_realistic_bla-3334.jpg",
             "blue": "https://3.bp.blogspot.com/-b1aSrOy0ZaI/UvsofnhsoqI/AAAAAAAAAXE/bw_nD114P8Y/s1600/14_734.jpg"
         }
         const ButtPlug ={
-            "red": "https://images-na.ssl-images-amazon.com/images/I/41nD9aJancL._SY300_QL70_.jpg",
+            "red": "https://hipa.pl/environment/cache/images/500_500_productGfx_14249.jpg",
             "black": "https://ae01.alicdn.com/kf/HTB1KRV8NFXXXXbdXpXXq6xXFXXX7/Free-shipping-34-80mm-medium-black-silicone-anal-plug-Jeweled-Rhinestone-insert-butt-plug-sexy-topper.jpg",
             "blue": "https://imgs1cdn.adultempire.com/product/2773973_1h.jpg"
         }
@@ -160,7 +160,7 @@ const durations = ["The duration is 1 year but when your in contact with sunligh
             "blue": "https://media.istockphoto.com/photos/menstrual-tampon-on-a-blue-background-menstruation-time-hygiene-and-picture-id691610430?k=6&m=691610430&s=170667a&w=0&h=uooiSEN2OmyxKoXBwLbHcXqoF9IcN6IGf1uwBtFuWPg="
         }
         const Condom ={
-            "red": "https://img.freepik.com/free-photo/lady-is-giving-red-condom-safe-sex-contraception-concept_1150-6172.jpg?size=626&ext=jpg",
+            "red": "https://image.freepik.com/free-photo/people-holding-red-condom_23-2148495879.jpg",
             "black": "https://cdn11.bigcommerce.com/s-b2st9rn/images/stencil/original/products/228/330/glyde_cola_condoms_montage__12539.1463979698.jpg?c=2",
             "blue": "https://thumbs.dreamstime.com/b/woman-opens-condom-young-opening-teeth-package-closeup-81232944.jpg"
         }
@@ -216,5 +216,4 @@ function generateNewTransformation() {
 
 
 }
-
 
